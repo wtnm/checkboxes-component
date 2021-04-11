@@ -1,0 +1,29 @@
+{
+  "name": "checkboxes-component",
+  "version": "1.0.0",
+  "description": "checkboxes",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtnm/checkboxes-component.git"
+  },
+  "keywords": [
+    "checkbox"
+  ],
+  "author": "Antonov Andrew <wtnm@rambler.ru> (https://github.com/wtnm)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wtnm/checkboxes-component/issues"
+  },
+  "homepage": "https://github.com/wtnm/checkboxes-component#readme",
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "dependencies": {
+    "is-fns": "^1.0.0",
+    "objects-fns": "^1.0.1"
+  }
+}
