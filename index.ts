@@ -44,12 +44,12 @@ const Checkbox = forwardRef(({$extend = {}, children = [], label, type = "checkb
 });
 
 type CheckboxesProps = {
-  _$useTag: string | FunctionComponent,
-  $enum: Array<string | number>,
-  $enumExten: anyObject,
-  $staticProps: anyObject,
-  name: string,
-  type: string,
+  _$useTag?: string | FunctionComponent,
+  $enum?: Array<string | number>,
+  $enumExten?: anyObject,
+  $staticProps?: anyObject,
+  name?: string,
+  type?: string,
   value?: any,
   // children?: any
   [key: string]: any
